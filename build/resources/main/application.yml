@@ -1,0 +1,10 @@
+server:
+  port: 3010
+spring: 
+  kafka:
+    bootstrap-servers: quickstart.cloudera:9092
+    consumer.group-id: boot-group
+    topics:
+       boot: boot.t	
+
+  
