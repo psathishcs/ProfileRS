@@ -5,6 +5,4 @@ spring:
     bootstrap-servers: bigdata.server:9092
     consumer.group-id: boot-group
     topics:
-       boot: boot.t	
-
-  
+       boot: boot.t

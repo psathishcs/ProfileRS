@@ -27,5 +27,10 @@ public class ProfileRSController {
 		kafkaSender.send(topic, gson.toJson(profile));
 		return true;
 	}
+	
+	@RequestMapping(value="/status", method=RequestMethod.GET)
+	public String getStatus() {
+		return "Profile Service is up and running!";
+	}
 
 }
